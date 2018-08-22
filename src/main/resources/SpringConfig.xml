@@ -39,9 +39,9 @@
 
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-		<property name="url" value="jdbc:sqlserver://172.20.0.30:1433;databaseName=EasyContent_WEB" />
-		<property name="username" value="user_desv" />
-		<property name="password" value="!@1qaz2wsx@!" />
+		<property name="url" value="jdbc:sqlserver://172.200.0.30:14433;databaseName=WEB" />
+		<property name="username" value="desv" />
+		<property name="password" value="senha@123" />
 	</bean>
 
 
